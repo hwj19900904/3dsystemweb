@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping("/3dsystem")
-public class CabSpread {
+public class CabSpreadController {
 	
 	@RequestMapping(value="/cabspread")
 	public String Index()
